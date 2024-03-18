@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo">educa.</a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#courses">courses</a>
+                <a href="#teachers">teachers</a>
+                <a href="#reviews">reviews</a>
+                <a href="#contact">contact</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="one">
+            <form onsubmit="func()">
+                <div class="container">
+                    <h1>Student Enrollment form</h1>
+                    <div class="login">
+                        <div class="name">
+                            <label for="name"><b>Name :</b></label>
+                            <input type="text" placeholder="Enter Your name" name="name" id="name">
+                        </div>
+                        <div class="email">
+                            <label for="email"><b>Email :</b></label>
+                            <input type="text" placeholder="Enter your Email" name="email" id="email">
+                        </div>
+                        <div class="image">
+                            <label for="email"><b>Image :</b></label>
+                            <input type="text" placeholder="Enter your Image link" name="image" id="image">
+                        </div>
+                        <div class="website">
+                            <label for="website"><b>Web li :</b></label>
+                            <input type="text" placeholder="Enter your Website link" name="website" id="website">
+                        </div>
+                        <div class="gender">
+                            <label for="gender"><b>Gender :</b></label>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                        </div>
+                        <div class="skills">
+                            <label for="skills"><b>Skills :</b></label>
+                            <input type="radio" name="skills" value="js"> Javascript
+                            <input type="radio" name="skills" value="HTML"> HTML
+                            <input type="radio" name="skills" value="CSS"> CSS
+
+                        </div>
+                        <button id="submit">Submit</button>
+                    </div>
+
+
+                </div>
+
+        </div>
+        </form>
+        </div>
+        <div class="two">
+            <div class="column">
+                <h1>Enrolled student</h1>
+                <div id="desc">
+
+                </div>
+                <!-- <div class="box">
+                    <div class="cl1">
+                        <h2>Description</h2>
+                        <h3 class="Name" id="NAME">Name:
+                        </h3>
+                        <h3 class="Gender" id="GENDER">Gender:
+                        </h3>
+                        <h3 class="Email" id="EMAIL">Email:
+                        </h3>
+                        <h3 class="Website" id="WEBSITE"> Website:
+                        </h3>
+                        <h3 class="Sills" id="SKILLS">Skills:
+                        </h3>
+
+                    </div>
+                    <div class="cl2">
+                        <h2>Image</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="cl1">
+                        <h2>Description</h2>
+                    </div>
+                    <div class="cl2">
+                        <h2>Image</h2>
+                        
+                    </div>
+
+
+
+                </div>
+                <div class="box">
+                    <div class="cl1">
+                        <h2>Description</h2>
+                    </div>
+                    <div class="cl2">
+                        <h2>Image</h2>
+                    </div> -->
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+    <script src="js/script.js"></script>
+</body>
+<!-- custom js file link -->
+
+</html>
